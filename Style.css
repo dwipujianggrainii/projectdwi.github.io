@@ -1,0 +1,162 @@
+html
+body {
+   margin:0;
+   padding:0;
+   height:100%;
+   background-image: url(https://www.fashiongonerogue.com/wp-content/uploads/2020/05/How-Dress-May-2020-Outfits.jpg);
+   background-size: cover;
+}
+
+a{text-decoration: none;}
+.container {
+   min-height:100%;
+   min-width: 100%;
+}
+
+/* header*/
+.header {
+   height: 10px;
+   background: #b86b77;
+}
+.nav-items {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-links {
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+    font-family: century gothic;
+}
+
+.nav-link {
+    color: black;
+    text-decoration: none;
+}
+
+/* BAGIAN KIRI */
+img.logo {
+  width: 160%;
+  height: 70px;
+  float: center;
+  padding-left: 100px;
+}
+.left {
+  font-family: century gothic;
+  width: 620px;
+  padding: 10px;
+  margin: 15px;
+  float: left;
+}
+
+.left h1 {
+  font-size: 60px;
+  letter-spacing: 10px;
+  margin: auto;
+}
+
+.left h2 {
+  padding-top: 50px;
+  font-size: 25px;
+}
+
+.left h3 {
+  font-size: 18px;
+}
+
+.btn {
+  padding: 8px 20px;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.signup {
+  color: white;
+  background-color: #b76e79;
+}
+
+.left ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+  overflow: hidden;
+}
+
+.left li {
+  float:left;
+}
+
+.left li a {
+  display: block;
+  text-align: center;
+  color: black;
+  padding: 30px 30px 10px 10px;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 15px;
+  font-family: century gothic;
+  cursor: pointer;
+}
+
+.left li a:hover {
+  color: #f6909d;
+}
+
+.nav-link.active {
+    font-weight: 600;
+    border-bottom: 3px solid #b76e79;
+}
+/* FOOTER */
+.footer {
+  position: fixed;
+  padding: 0 0 1px 0;
+   background-color: #a38b93;
+   bottom:0;
+   min-width:100%;
+   height:35px;   /* tinggi dari footer */
+}
+
+.footer p {
+  bottom:0;
+  text-align: center;
+}
+
+.animasi{
+	transition: 0.1s;
+	-webkit-transition: 0.1s;
+}
+
+.tombol-aktif{
+	padding: 10px 40px;
+	border-radius: 10px;
+	float: left;
+	font-family: century gothic;
+	font-size: 25px;
+	color: white;
+	text-decoration: none;
+}
+
+@media screen and (max-width: 1080px) {
+	.container {
+	width: 100%;
+}
+
+@media screen and (max-width: 780px) {
+  .header,
+  .footer{
+  text-align: center;
+}
+
+@media (min-width: 720px) and (max-width: 992px) {
+  .container {
+  width: 100%;
+}
